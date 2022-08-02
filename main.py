@@ -1,2 +1,2 @@
-while True:
-    print("physiscs is boring and fun ")
+import tkinter as tk
+import os
