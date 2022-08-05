@@ -1,12 +1,12 @@
-numbers = [6, 5, 8, 1, 7]
-n = len(numbers) - 1
+num = [9, 1, 3, 6, 4]
+n = 4
 
 for i in range(n):
     for j in range(n):
-        if numbers[j] > numbers[j + 1]:
-            temp = numbers[j]
-            numbers[j] = numbers[j + 1]
-            numbers[j + 1] = temp
-    n = n - 1
+        if num[j] > num[j + 1]:
+            temp = num[j]
+            num[j] = num[j + 1]
+            num[j + 1] = temp
+    n -= 1
 
-print(numbers)
+print(num)
